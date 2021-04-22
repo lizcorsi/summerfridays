@@ -6,7 +6,7 @@
     # Token used to authenticate with GitHub API. Default is built-in token but a personal access token may be used for organization or user projects.
     token: # optional, default is ${{ github.token }}
     # Issue title, e.g. "Daily standup"
-    title: 
+    title: "Friday"
     # Issue body in Markdown, e.g. # Summary **bolded text**.
     body: # optional
     # Comma delimited list of existing issue labels to be applied to new issue, e.g. "bug, ci".
@@ -18,7 +18,7 @@ Assigns new issue to all assignees, or if "rotateAssignees" is set, to the next 
 Organization and user projects require a GitHub App installation access token, OAuth token, or Personal Access Token.
 Read more here: https://docs.github.com/en/github/managing-your-work-on-github/about-project-boards.
 Defaults to "repository".
-    project-type: # optional
+    project-type: 2 # optional
     # Project number (not ID or name) to add issue to, e.g. 2.
     project: # optional
     # Project column name to add issue to, e.g. To Do.
