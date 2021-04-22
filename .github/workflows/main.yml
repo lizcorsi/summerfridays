@@ -10,7 +10,7 @@
     # Issue body in Markdown, e.g. # Summary **bolded text**.
     body: # optional
     # Comma delimited list of existing issue labels to be applied to new issue, e.g. "bug, ci".
-    labels: "Friday", "Yay" # optional
+    labels: "Friday, Yay"
     # Comma delimited list of issue assignees having write access to repo, e.g. "imjohnbo, nat".
 Assigns new issue to all assignees, or if "rotateAssignees" is set, to the next single assignee whose turn it is.
     assignees: # optional
